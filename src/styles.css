@@ -1,0 +1,105 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+  padding: 0;
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  font-size: 75%;
+}
+body {
+  margin: 0;
+  font-family: "NunitoSans" !important;
+  font-weight: 400;
+  color: #8A8A8A;
+}
+.mat-h2, .mat-title, .mat-typography h2{
+  font-size: 1.5rem;
+  font-weight: 600;
+  font-family: "NunitoSans" !important;
+}
+.main-container{
+  background-color: #F2F2F2;
+  padding: 3.5rem;
+}
+.mat-body p, .mat-body-1 p, .mat-typography p{
+  margin: 0 0 0px;
+}
+.mat-body, .mat-body-1, .mat-typography{
+  font: 400 1.2rem "NunitoSans";
+}
+.bold{
+  color: #2D2D2D;
+}
+.separator-right{
+  border-right: 1px solid #E6E6E6; ;
+
+
+}
+.full-bor-radius{
+  border-radius: 100%;
+}
+
+.mat-menu-item .mat-icon{
+  margin-right: 0!important;
+}
+
+.text-center{
+  text-align: center;
+}
+.p-20{
+  padding: 2rem;
+}
+.mouse-drag{
+  cursor: move;
+}
+.full-height{
+  height: 100%;
+}
+.full-width{
+  width: 100%;
+}
+.pt-15{
+  padding-top: 1.5rem;
+}
+a{
+  cursor: pointer;
+}
+.red-text{
+  color: #E02020;
+}
+.ico-small{
+  height: 2rem;
+  width: 2rem;
+}
+.ico-mini{
+  height: 1.6rem;
+  width: 1.6rem;
+}
+.thumb-green-ico{
+  background:url(../src/assets/images/svg/thumb-green-ico.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.thumb-grey-ico{
+  background:url(../src/assets/images/svg/thumb-grey-ico.svg);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+	html {
+		font-size: 62.5%;
+	}
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	html {
+		font-size: 62.5%;
+	}
+}
